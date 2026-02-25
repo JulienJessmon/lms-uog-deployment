@@ -22,7 +22,7 @@ const Login: React.FC<LoginProps> = ({ onLogin, onSwitchToRegister }) => {
   return (
     <div className="min-h-screen flex items-center justify-center" style={{ backgroundImage: "url('/uniofgalway.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <div className="max-w-md w-full p-8 bg-white/90 backdrop-blur-sm rounded-lg shadow-lg">
-        <h2 className="text-3xl font-bold mb-6 text-center text-gray-800">Welcome Back</h2>
+        <h2 className="text-3xl font-bold mb-6 text-center text-gray-800">Welcome Back Julien Jessmon - 25239966</h2>
         {error && (
           <div className="mb-4 p-3 bg-red-100 text-red-700 rounded-md">
             {error}
